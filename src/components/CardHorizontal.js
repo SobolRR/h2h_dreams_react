@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FacebookShareButton, TelegramShareButton } from "react-share";
 
 function CardHorizontal(props) {
   return (
@@ -9,11 +10,19 @@ function CardHorizontal(props) {
         </figure>
         <div class="card-horizontal__body">
           <div class="card-horizontal__body-row">
-            <div class="share-list">
-              <span class="share-list__item">Share</span>
-              <button class="share-list__item social-fb-button"></button>
-              <button class="share-list__item social-telegram-button"></button>
-            </div>
+          <div class="share-list">
+                        <span class="share-list__item">Share</span>
+                        <FacebookShareButton 
+                url={"http://www.dreams.kharkov.ua/"}
+                quote={"Я исполняю мечты детей! Присоединяйся!"}
+                className="share-list__item social-fb-button">
+              </FacebookShareButton>
+              <TelegramShareButton 
+                url={"http://www.dreams.kharkov.ua/"}
+                title={"Я исполняю мечты детей! Присоединяйся!"}
+                className="share-list__item social-telegram-button">
+              </TelegramShareButton>
+                    </div>
             <div class="card-horizontal__title">
               Я {props.name} и мне {props.age}
             </div>

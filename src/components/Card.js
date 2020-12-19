@@ -23,7 +23,7 @@ function Card(props) {
               
             </div>
             <div class={`card__btn ${props.showBtn}`}>
-                <a href="#" class="btn btn--white btn--full-width">Помочь</a>
+                <a href={props.paymentLink} class="btn btn--white btn--full-width" target="_blank">Помочь</a>
             </div>
         </div>
     </div>
