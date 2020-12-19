@@ -1,36 +1,40 @@
-import snowAngel from './img/snow-angel.svg'
-import snowMan from './img/make-snowman.svg'
-import boy from './img/boy.svg'
-import boy2 from './img/boy-2.svg'
-import girl from './img/girl.svg'
-import girl2 from './img/girl-2.svg'
-import letter1 from './img/letters/letter_1.jpg'
-import letter2 from './img/letters/letter_2.jpeg'
-import letter3 from './img/letters/letter_3.jpeg'
-import letter4 from './img/letters/letter_4.jpeg'
-import letter5 from './img/letters/letter_5.jpeg'
-import letter6 from './img/letters/letter_6.jpeg'
-import letter7 from './img/letters/letter_7.jpeg'
-import letter8 from './img/letters/letter_8.jpeg'
-import letter9 from './img/letters/letter_9.jpeg'
-import letter10 from './img/letters/letter_10.jpeg'
-import letter11 from './img/letters/letter_11.jpeg'
-import letter12 from './img/letters/letter_12.jpeg'
-import letter13 from './img/letters/letter_13.jpeg'
-import letter14 from './img/letters/letter_14.jpeg'
-import letter15 from './img/letters/letter_15.jpeg'
-import letter16 from './img/letters/letter_16.jpeg'
-
+import snowAngel from "./img/snow-angel.svg";
+import snowMan from "./img/make-snowman.svg";
+import boy from "./img/boy.svg";
+import boy2 from "./img/boy-2.svg";
+import girl from "./img/girl.svg";
+import girl2 from "./img/girl-2.svg";
+import letter1 from "./img/letters/letter_1.jpg";
+import letter2 from "./img/letters/letter_2.jpeg";
+import letter3 from "./img/letters/letter_3.jpeg";
+import letter4 from "./img/letters/letter_4.jpeg";
+import letter5 from "./img/letters/letter_5.jpeg";
+import letter6 from "./img/letters/letter_6.jpeg";
+import letter7 from "./img/letters/letter_7.jpeg";
+import letter8 from "./img/letters/letter_8.jpeg";
+import letter9 from "./img/letters/letter_9.jpeg";
+import letter10 from "./img/letters/letter_10.jpeg";
+import letter11 from "./img/letters/letter_11.jpeg";
+import letter12 from "./img/letters/letter_12.jpeg";
+import letter13 from "./img/letters/letter_13.jpeg";
+import letter14 from "./img/letters/letter_14.jpeg";
+import letter15 from "./img/letters/letter_15.jpeg";
+import letter16 from "./img/letters/letter_16.jpeg";
 
 export const data = [
-    { id: 1, status: 'in-progress', image: snowAngel, label: 'В процессе', percantage: 0,
-    name: 'Дима',
-    age: '16 лет',
-    like: 'заниматься спортом', 
-    skill: 'заниматься рементом',
-    wish: 'отлично выполнять ремонт в доме',
-    action: 'Помогал выполнять хозяйственные дела в центре', 
-    dream: 'шуроповертe для ремонта помещений',
+  {
+    id: 1,
+    status: "in-progress",
+    image: snowAngel,
+    label: "В процессе",
+    percantage: 0,
+    name: "Дима",
+    age: "16 лет",
+    like: "заниматься спортом",
+    skill: "заниматься рементом",
+    wish: "отлично выполнять ремонт в доме",
+    action: "Помогал выполнять хозяйственные дела в центре",
+    dream: "шуроповертe для ремонта помещений",
     letter: letter1,
      title: 'Дима, 16 лет',
      paymentLink: 'https://privatbank.ua/sendmoney?payment=a8f801a074',
