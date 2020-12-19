@@ -1,0 +1,76 @@
+.dream-descroption {
+    &__row {
+        margin-left: -25px;
+        margin-right: -25px;
+        &:not(:last-child) {
+            margin-bottom: 40px;
+        }
+        
+        @media (min-width: $tabletMin) {
+            display: flex;
+        }
+        
+        @media (min-width: $desktop) {
+            margin-left: -80px;
+            margin-right: -80px;
+            &:not(:last-child) {
+                margin-bottom: 100px;
+            }
+        }
+
+        &:nth-child(even) {
+            .dream-descroption__col {
+                &:nth-child(odd){
+                    width: 100%;
+                }
+                &:nth-child(even){
+                    width: 100%;
+                }
+
+                @media (min-width: $tabletMin) {
+                    &:nth-child(odd){
+                        width: 40%;
+                    }
+                    &:nth-child(even){
+                        width: 60%;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(odd) {
+            .dream-descroption__col {
+                &:nth-child(odd){
+                    width: 100%;
+                }
+                &:nth-child(even){
+                    width: 100%;
+                }
+
+                @media (min-width: $tabletMin) {
+                    &:nth-child(odd){
+                        width: 60%;
+                    }
+                    &:nth-child(even){
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+
+    &__col {
+        padding: 0 25px;
+
+        @media (min-width: $desktop) {
+            padding: 0 80px;
+        }
+    }
+
+    img {
+        border-radius: 30px;
+    }
+
+
+
+}

@@ -1,0 +1,43 @@
+.page__dreams-list {
+    position: relative;
+    
+    &.page__main {
+        padding-bottom: 300px;
+    }
+
+    &:after, 
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        
+    }
+
+    &:before {
+        left: 0px;
+        width: 222px;
+        height: 400px;
+        background-image: url('../../img/tree-left.png');
+        @media (min-width: $desktop) {
+            width: 332px;
+            height: 597px;
+        }
+    }
+
+    &:after {
+        z-index: -1;
+        right: 0px;
+        width: 312px;
+        height: 400px;
+        background-image: url('../../img/house.png');
+        @media (min-width: $desktop) {
+            width: 457px;
+            height: 586px;
+        }
+    }
+
+}

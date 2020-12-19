@@ -1,0 +1,98 @@
+.three-cols-section {
+    margin-bottom: 90px;
+
+    @media (min-width: $desktop) {
+        margin-bottom: 160px;
+    }
+
+    .title {
+        position: relative;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -125px;
+            left: 0;
+            width: 90px;
+            height: 130px;
+            background-image: url('../../img/people.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            @media (min-width: $desktopL) {
+                top: -175px;
+                left: -60px;
+            }
+
+            @media (min-width: $tabletMin) {
+                top: -175px;
+                width: 134px;
+                height: 197px;
+            }
+        }
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 -20px;
+
+        @media (min-width: $tabletMin) {
+            padding-top: 50px;
+        }
+
+        @media (min-width: $desktop) {
+            flex-wrap: nowrap;
+            margin: 0 -80px;
+        }
+    }
+
+    &__col {
+        position: relative;
+        width: 100%;
+        padding: 20px 20px;
+        color: $black;
+
+        @media (min-width: $tabletMin) {
+            width: calc(100% / 3);
+        }
+
+        @media (min-width: $desktop) {
+            padding: 35px 80px 0;
+        }
+
+        &:before {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 150px;
+            line-height: 0.75;
+            font-weight: 700;
+            opacity: 0.15;
+            color: $primary-orange-01;
+
+            @media (min-width: $tabletMin) {
+                top: 0;
+                transform: translateX(-50%);
+                font-size: 220px;
+            }
+        }
+
+        &--first:before {
+            content: '1';
+        }
+
+        &--second:before {
+            content: '2';
+        }
+
+        &--third:before {
+            content: '3';
+        }
+    }
+}

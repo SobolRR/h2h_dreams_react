@@ -1,0 +1,39 @@
+.breadcrumbs {
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 30px 0 30px;
+
+        @media (min-width: $tabletMin) {
+            padding: 55px 0 30px;
+        }
+    }
+
+    &__item {
+        position: relative;
+        list-style: none;
+        color: $primary-orange-01;
+
+        &:not(:last-child) {
+            padding-right: 20px;
+        }
+
+        &:not(:last-child):after {
+            content: '/';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 12px;
+            color: $gray-c4;
+        }
+
+    }
+    a.breadcrumbs__item {
+        text-decoration: none;
+        color: $gray-c4;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

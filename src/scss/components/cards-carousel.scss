@@ -1,0 +1,26 @@
+.carousel-section {
+    margin-bottom: 40px;
+}
+.cards-carousel {
+    padding: 0 20px;
+    max-width: 570px;
+    margin: 0 auto;
+
+    @media (min-width: $tabletMin) {
+        max-width: 750px;
+    }
+
+    @media (min-width: $desktop) {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0;
+    }
+
+    .card-list__item {
+        height: 100%;
+    }
+}

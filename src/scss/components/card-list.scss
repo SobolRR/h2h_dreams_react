@@ -1,0 +1,118 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+    &__item {
+        width: 100%;
+        padding: 20px 10px 20px;
+
+        @media (min-width: $tabletMin) {
+            width: calc(100% / 2);
+        }
+
+        @media (min-width: $desktop) {
+            width: calc(100% / 3);
+        }
+
+        &:nth-child(3n+2) {
+            .card__body {
+                background: $primary-orange-03;
+            }
+        }
+    }
+
+}
+
+.card {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15), 0 2px 4px 0 rgba(0,0,0,.1);
+    height: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    &__image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding-bottom: 19px;
+        border-radius: 30px 30px 0 0;
+        text-align: center;
+        background: $white;
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 30px 30px 0 0;
+        }
+    }
+
+    &__body {
+        position: relative;
+        flex: 1;
+        padding: 30px 30px;
+        border-radius: 0 0 30px 30px;
+        background: $primary-orange-02;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        flex: 1;
+    }
+
+    &__label {
+        position: absolute;
+        top: -19px;
+        right: 0;
+        width: 160px;
+        text-align: center;
+        color: $white;
+        padding: 5px;
+
+        &.completed {
+            background: #3CB376;
+        }
+
+        &.in-progress {
+            background: #6EACD1;
+        }
+
+        &.not-completed {
+            background: #DF4A7F;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    &__link-details {
+        text-decoration: underline;
+        margin-top: 5px;
+        color: $white;
+        display: inline-block;
+    }
+
+    &__btn {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,91 @@
+.slick-slider {
+    position: relative;
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-track {
+      position: relative;
+      float: left;
+      display: flex !important;
+  }
+  
+  .slick-slide {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: inherit !important;
+  
+    > div  {
+      flex: 1;
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+    }
+
+    &:focus {
+        outline: none;
+    }
+  }
+  
+  .slick-arrow {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -25px;
+    background: none;
+    padding: 0;
+    border: 0;
+    text-indent: -99999px;
+    overflow: hidden;
+    transition: all 0.25s linear 0s;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+  
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      content: '';
+      color: $primary-orange-02;
+     // background: url('../../img/icons/right-chevron.svg') center/cover no-repeat;
+    }
+
+    &.slick-disabled {
+        visibility: hidden;
+        opacity: 0;
+    }
+  }
+  
+    .slick-prev {
+        left: -10px;
+        @media (min-width: $desktopL) {
+            left: -35px;
+        }
+
+        &:before {
+            transform: rotate(180deg);
+        }
+    }
+  
+    .slick-next { 
+        right: -10px;
+
+        @media (min-width: $desktopL) {
+            right: -35px;
+        }
+    }
+}
+  
