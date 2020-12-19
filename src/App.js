@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Main from './Main';
 import Dreams from './Dreams.jsx';
 import DreamDetail from './DreamDetail.jsx';
+import Institution from "./Institution";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route exact path="/dreams/:id">
           <DreamDetail />
+        </Route>
+        <Route exact path="/institution">
+          <Institution />
         </Route>
       </Switch>
       <Footer/>

@@ -1,0 +1,35 @@
+.article {
+    margin-bottom: 50px;
+
+    @media (min-width: $tabletMin) {
+        margin-bottom: 90px;
+    }
+
+    &__row {
+        
+        @media (min-width: $tabletMin) {
+            display: flex;
+            margin: 0 -25px;
+        }
+    }
+
+    &__col {
+        @media (min-width: $tabletMin) {
+            width: 50%;
+            padding: 0 25px;
+        }
+
+        &--text {
+            margin-bottom: 30px;
+            @media (min-width: $tabletMin) {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__col--picture {
+        img {
+            border-radius: 30px;
+        }
+    }
+}
