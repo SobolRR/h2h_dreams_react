@@ -1,7 +1,6 @@
 function ProductCard(props) {
   return (
-    <div className="product-card">
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="_blank" className="product-card">
         <figure className="product-card__image">
           <img src={props.imageLink} />
         </figure>
@@ -19,8 +18,7 @@ function ProductCard(props) {
           </a>
         </div>
       </div>
-      </a>
-    </div>
+    </a>
   );
 }
 
