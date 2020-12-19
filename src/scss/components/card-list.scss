@@ -83,15 +83,15 @@
         padding: 5px;
 
         &.completed {
-            background: #3CB376;
+            background: $accent-green;
         }
 
         &.in-progress {
-            background: #6EACD1;
+            background: $accent-blue;
         }
 
         &.not-completed {
-            background: #DF4A7F;
+            background: $accent-red;
         }
     }
 

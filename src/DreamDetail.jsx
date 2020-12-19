@@ -17,32 +17,34 @@ function DreamDetail() {
 
         <div class="dream-descroption">
           <div class="dream-descroption__row">
-            <div class="dream-descroption__col">
+            <div class="dream-descroption__col dream-descroption__col--text">
               <div>
                 <span>
-                  Меня зовут <b>{detail.name}</b> и мне <b>{detail.age}</b>
+                  Меня зовут <b className="accent-red">{detail.name}</b> и мне{" "}
+                  <b className="accent-green">{detail.age}</b>
                 </span>
               </div>
               <div>
                 <span>
-                  Мне нравится <b>{detail.like}</b>
+                  Мне нравится <b className="accent-blue">{detail.like}</b>
                 </span>
               </div>
               <div>
                 <span>
-                  Я умею <b>{detail.skill}</b>
+                  Я умею <b className="accent-red">{detail.skill}</b>
                 </span>
               </div>
               <div>
                 <span>
                   Я целый год стараюсь, делаю полезыне дела и совершаю хорошие
-                  поступки. Вот самые важные: <b>{detail.action}</b>
+                  поступки. Вот самые важные:{" "}
+                  <b className="accent-green">{detail.action}</b>
                 </span>
               </div>
               <div>
                 <span>
                   Я знаю, что ты исполняешь любые желаения, я давно мечтаю о{" "}
-                  <b>{detail.dream}</b>
+                  <b className="accent-blue">{detail.dream}</b>
                 </span>
               </div>
               <div>
@@ -54,7 +56,8 @@ function DreamDetail() {
               </div>
               <div>
                 <span>
-                  Жду твоего прихода! <b>{detail.name}</b>
+                  Жду твоего прихода!{" "}
+                  <b className="accent-red">{detail.name}</b>
                 </span>
               </div>
             </div>
@@ -65,9 +68,8 @@ function DreamDetail() {
             </div>
           </div>
         </div>
-        
+
         <HelpProducts />
-        
       </div>
     </main>
   );
