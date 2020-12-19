@@ -19,8 +19,8 @@ function Footer() {
                     </a> */}
                 </div>
                 <div class="footer__item footer__contacts footer__item--center">
-                    <a href="tel:+380 96 78 40 245" class="item">+380 96 78 40 245</a>
-                    <a href="tel:+380 67 318 38 76" class="item">+380 67 318 38 76</a>
+                    <a href="tel:+380 96 78 40 245" class="item" target="_blank">+380 96 78 40 245</a>
+                    <a href="tel:+380 67 318 38 76" class="item" target="_blank">+380 67 318 38 76</a>
                 </div>
                 <div class="footer__item footer__item--right text-right">
                     <Link to="/dreams" class="btn">Исполнить мечту</Link>

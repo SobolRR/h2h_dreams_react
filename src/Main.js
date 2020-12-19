@@ -14,7 +14,7 @@ function Main() {
                   Вдохновляем на добрые дела уже{" "}
                   <span class="accent">5 лет!</span>
                 </h1>
-                <Link to={`/`} class="btn">
+                <Link to={`/dreams`} class="btn">
                   Мечты
                 </Link>
               </div>
