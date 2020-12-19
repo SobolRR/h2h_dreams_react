@@ -3,11 +3,19 @@ import ProductCard from "./ProductCard";
 function HelpProducts(props) {
   return (
     <section className="help-products">
-      <h2 class="title title--h2">Товары</h2>
+      <h2 className="title title--h2">{props.title}</h2>
       <ul className="help-products__list">
-        <li className="help-products__list-item">
-          <ProductCard />
-        </li>
+
+        {(
+          props.products.map((product, i) => (
+            <li className="help-products__list-item" key={i}>
+  
+              <ProductCard {...product} />
+            </li>
+          ))
+        )}
+
+
       </ul>
     </section>
   );
