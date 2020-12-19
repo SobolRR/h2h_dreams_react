@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Breadcrumbs from "./components/Breadcrumbs";
 import CardHorizontal from "./components/CardHorizontal";
+import HelpProducts from "./components/help-products/HelpProducts";
 import { data } from "./data";
 
 function DreamDetail() {
@@ -64,6 +65,9 @@ function DreamDetail() {
             </div>
           </div>
         </div>
+        
+        <HelpProducts />
+        
       </div>
     </main>
   );

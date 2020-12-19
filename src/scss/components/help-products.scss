@@ -1,0 +1,22 @@
+.help-products {
+    &__list {
+        list-style: none;
+        margin: 0 -10px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__list-item {
+        padding: 0 10px 20px;
+        width: 100%;
+
+        @media (min-width: $tabletMin) {
+            width: calc(100% / 3);
+        }
+
+        @media (min-width: $desktop) {
+            width: calc(100% / 5);
+        }
+    }
+}
