@@ -65,7 +65,7 @@ function DreamDetail() {
               </div>
             </div>
             <button class="dream-descroption__col" onClick={() => { setVisible(true); }}>
-              <figure>
+              <figure className="dream-descroption__picture">
                 <img src={detail.letter} alt="Письмо к Св. Николаю" />
 
               </figure>
