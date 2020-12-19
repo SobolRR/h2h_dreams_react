@@ -13,6 +13,7 @@ function Header() {
             <nav class="header__item navigation">
                 <Link to="/" class="navigation__item">Главная</Link>
                 <Link to="/dreams" class="navigation__item">Мечты</Link>
+                <Link to="/child-center" class="navigation__item">О центре</Link>
             </nav>
             <div class="header__item text-right">
                 <Link to="/dreams" class="btn btn--reverse">Исполнить мечту</Link>

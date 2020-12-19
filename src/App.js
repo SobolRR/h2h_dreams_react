@@ -26,7 +26,7 @@ function App() {
         <Route exact path="/dreams/:id">
           <DreamDetail />
         </Route>
-        <Route exact path="/institution">
+        <Route exact path="/child-center">
           <Institution />
         </Route>
       </Switch>

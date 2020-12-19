@@ -13,12 +13,12 @@ function CardHorizontal(props) {
           <div class="share-list">
                         <span class="share-list__item">Share</span>
                         <FacebookShareButton 
-                url={"http://www.dreams.kharkov.ua/"}
+                url={window.location}
                 quote={"Я исполняю мечты детей! Присоединяйся!"}
                 className="share-list__item social-fb-button">
               </FacebookShareButton>
               <TelegramShareButton 
-                url={"http://www.dreams.kharkov.ua/"}
+                url={window.location}
                 title={"Я исполняю мечты детей! Присоединяйся!"}
                 className="share-list__item social-telegram-button">
               </TelegramShareButton>
