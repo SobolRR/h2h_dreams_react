@@ -5,21 +5,21 @@ import boy2 from "./img/boy-2.svg";
 import girl from "./img/girl.svg";
 import girl2 from "./img/girl-2.svg";
 import letter1 from "./img/letters/letter_1.jpg";
-import letter2 from "./img/letters/letter_2.jpeg";
-import letter3 from "./img/letters/letter_3.jpeg";
-import letter4 from "./img/letters/letter_4.jpeg";
-import letter5 from "./img/letters/letter_5.jpeg";
-import letter6 from "./img/letters/letter_6.jpeg";
-import letter7 from "./img/letters/letter_7.jpeg";
-import letter8 from "./img/letters/letter_8.jpeg";
-import letter9 from "./img/letters/letter_9.jpeg";
-import letter10 from "./img/letters/letter_10.jpeg";
-import letter11 from "./img/letters/letter_11.jpeg";
-import letter12 from "./img/letters/letter_12.jpeg";
-import letter13 from "./img/letters/letter_13.jpeg";
-import letter14 from "./img/letters/letter_14.jpeg";
-import letter15 from "./img/letters/letter_15.jpeg";
-import letter16 from "./img/letters/letter_16.jpeg";
+import letter2 from "./img/letters/letter_2.jpg";
+import letter3 from "./img/letters/letter_3.jpg";
+import letter4 from "./img/letters/letter_4.jpg";
+import letter5 from "./img/letters/letter_5.jpg";
+import letter6 from "./img/letters/letter_6.jpg";
+import letter7 from "./img/letters/letter_7.jpg";
+import letter8 from "./img/letters/letter_8.jpg";
+import letter9 from "./img/letters/letter_9.jpg";
+import letter10 from "./img/letters/letter_10.jpg";
+import letter11 from "./img/letters/letter_11.jpg";
+import letter12 from "./img/letters/letter_12.jpg";
+import letter13 from "./img/letters/letter_13.jpg";
+import letter14 from "./img/letters/letter_14.jpg";
+import letter15 from "./img/letters/letter_15.jpg";
+import letter16 from "./img/letters/letter_16.jpg";
 
 export const data = [
   {
@@ -58,7 +58,7 @@ export const data = [
     wish: 'отлично выполнять ремонт в доме',
     action: 'убирал комнаты и кладовые своим веником',
     letter: letter2,
-    dream: 'машину на управлении',
+    dream: 'машине на управлении',
     paymentLink: 'https://privatbank.ua/sendmoney?payment=b1a6153077',
     showLink: 'show',
     showBtn: 'show',
@@ -198,7 +198,7 @@ export const data = [
     wish: 'мыть посуду, кататься на велосипеде',
     action: 'хорошо учусь и хорошо себя веду',
     letter: letter8,
-    dream: 'куколку с одеждой',
+    dream: 'куколке с одеждой',
     paymentLink: 'https://privatbank.ua/sendmoney?payment=e4a8bd5fe6',
     showLink: 'show',
     showBtn: 'show',

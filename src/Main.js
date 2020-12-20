@@ -67,7 +67,7 @@ function Main() {
               </div>
               <div class="three-cols-section__col three-cols-section__col--second">
                 Занимаемся организацией досуга для детей, которые временно
-                размещены в в центрах социально-психологической реабилитации
+                размещены в центрах социально-психологической реабилитации
               </div>
               <div class="three-cols-section__col three-cols-section__col--third">
                 Разбираемся с социальными проблемами пожилых людей и создаем

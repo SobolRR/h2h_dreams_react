@@ -36,9 +36,9 @@ function CardHorizontal(props) {
               Я мечтаю о: <b>{props.dream}</b>
             </span>{" "}
           </div>
-          <Link to="/dreams" class="btn btn--white">
+          <a href={props.paymentLink} class="btn btn--white" target="_blank">
             Исполнить мечту
-          </Link>
+          </a>
         </div>
       </div>
       <div class="card-horizontal__progress progress-bar">
