@@ -44,7 +44,7 @@ export const data = [
       link:'https://rozetka.com.ua/texac_ta_01_159/p108998454/',
       imageLink:'https://i1.rozetka.ua/goods/13589284/texac_ta_01_159_images_13589284261.jpg',
       title:'Аккумуляторный шуруповерт',
-      price: '600-800грн',
+      price: '600 - 800грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=a8f801a074'
     }]
   },
@@ -66,7 +66,7 @@ export const data = [
       link:'https://rozetka.com.ua/sulong_toys_sl_111rhmbl/p87640990/',
       imageLink:'https://i2.rozetka.ua/goods/19407820/sulong_toys_sl_111rhmbl_images_19407820429.jpg',
       title:'Автомобиль на р/у',
-      price: '600-800грн',
+      price: '600 - 800грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=b1a6153077'
     }]
   },
@@ -88,7 +88,7 @@ export const data = [
       link:'https://hard.rozetka.com.ua/115405009/p115405009/',
       imageLink:'https://i1.rozetka.ua/goods/13640815/115405009_images_13640815843.jpg',
       title:'Портативная колонка Jbl Charge 2 Plus',
-      price: '500-600грн',
+      price: '500 - 600грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=9138fb4bcf'
     }]
   },
@@ -110,14 +110,14 @@ export const data = [
       link:'https://prom.ua/p1298949018-fitnes-treker-xiaomi.html?',
       imageLink:'https://images.ua.prom.st/2743419076_w640_h640_fitnes-treker-xiaomi.jpg',
       title:'Фитнес трекер Xiaomi Mi band 5',
-      price: '500-600грн',
+      price: '500 - 600грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=5653864d26'
     },
     {
       link:'https://prom.ua/p1231151344-sportivnyj-kostyum-dlya.html?',
       imageLink:'https://images.ua.prom.st/2528383130_w700_h500_sportivnyj-kostyum-dlya.jpg',
       title:'Спортивный костюм для девочек',
-      price: '400-700грн',
+      price: '400 - 700грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=5653864d26'
     }
   ]
@@ -140,7 +140,7 @@ export const data = [
       link:'https://goodtoys.com.ua/product/mashina-perevertysh-5588-601/',
       imageLink:'https://goodtoys.com.ua/wa-data/public/shop/products/00/webp/48/91/9148/images/23630/23630.970.webp',
       title:'Машинка на радиуправлении',
-      price: '500-700грн',
+      price: '500 - 700грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=eb7dc5418f'
     }]
   },
@@ -162,7 +162,7 @@ export const data = [
       link:'https://hard.rozetka.com.ua/115405009/p115405009/',
       imageLink:'https://i1.rozetka.ua/goods/13640815/115405009_images_13640815843.jpg',
       title:'Портативная колонка Jbl Charge 2 Plus',
-      price: '500-600грн',
+      price: '500 - 600грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=c1f74b78e5'
     }]
   },
@@ -184,7 +184,7 @@ export const data = [
       link:'https://rozetka.com.ua/252023666/p252023666/',
       imageLink:'https://i8.rozetka.ua/goods/20123791/252023666_images_20123791621.png',
       title:'Антигравитационная машинка на радиоуправлении',
-      price: '500-700грн',
+      price: '500 - 700грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=f5f385ae4c'
     }]
   },
@@ -206,7 +206,7 @@ export const data = [
       link:'https://prom.ua/p1258383663-detskaya-kukla-barbi.html?',
       imageLink:'https://images.ua.prom.st/2613855229_w700_h500_detskaya-kukla-barbi.jpg',
       title:'Детская кукла барби Defa с одеждой и аксессуарами',
-      price: '500-700грн',
+      price: '500 - 700грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=e4a8bd5fe6'
     }]
   },
@@ -228,7 +228,7 @@ export const data = [
       link:'https://prom.ua/p1192807394-detskaya-kukla-pups.html?',
       imageLink:'https://images.ua.prom.st/2414637704_w700_h500_detskaya-kukla-pups.jpg',
       title:'Детская кукла пупс для девочек функциональная',
-      price: '700-900грн',
+      price: '700 - 900грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=5a68629982'
     }]
   },
@@ -250,7 +250,7 @@ export const data = [
       link:'https://goodtoys.com.ua/product/mashina-0395-tachki-na-radioupravlenii/',
       imageLink:'https://goodtoys.com.ua/wa-data/public/shop/products/00/webp/77/14/1477/images/9341/9341.970.webp',
       title:'Машина на радиоуправлении',
-      price: '400-600грн',
+      price: '400 - 600грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=e3138288ca'
     }]
   },
@@ -272,14 +272,14 @@ export const data = [
       link:'https://prom.ua/p1299768558-kukla-bolshaya-kak.html?',
       imageLink:'https://images.ua.prom.st/2746008158_w700_h500_kukla-bolshaya-kak.jpg',
       title:'Кукла большая',
-      price: '400-500грн',
+      price: '400 - 500грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=261ddb3436'
     },
     {
       link:'https://prom.ua/p1019631659-nabor-detskoj-kosmetiki.html?',
       imageLink:'https://images.ua.prom.st/1919928941_w700_h500_nabor-detskoj-kosmetiki.jpg',
       title:'Набор детской косметики',
-      price: '300-400грн',
+      price: '300 - 400грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=261ddb3436'
     }
   ]
@@ -302,7 +302,7 @@ export const data = [
       link:'https://prom.ua/p745286732-bolshoj-igrushechnyj-gruzovik.html?',
       imageLink:'https://images.ua.prom.st/1252789104_w640_h640_bolshoj-igrushechnyj-gruzovik.jpg',
       title:'Большой игрушечный грузовик ',
-      price: '700-900грн',
+      price: '700 - 900грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=5a68629982'
     }]
   },
@@ -323,7 +323,7 @@ export const data = [
       link:'https://myplay.ua/ru/307299?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6KQea4JjcXe5rkjO-IS4NmahulcQtOpsmdD-wSHyQg0_soSyFsm1MAaAt6qEALw_wcB',
       imageLink:'https://myplay.ua/tmp/cache/images/53/4e0/307299-638x638-r.jpg',
       title:'ТРАКТОР NEW HOLLAND с прицепом',
-      price: '500-600грн',
+      price: '500 - 600грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=415056db46'
     }]
   },
@@ -352,7 +352,7 @@ export const data = [
       link:'https://zdorovalavka.com.ua/novogodniy-podarochnyy-nabor-poleznyh-konfet-zhivaya-kuhnya-200g?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6LMEKg_hb96gz3UAckzsbgz-FESDm0wNL8F6NMyC35YIH6FXoO4ruwaAvZREALw_wcB',
       imageLink:'https://zdorovalavka.com.ua/image/cache/catalog/Sladkij%20mir/novogodniy-podarochnyy-nabor-poleznyh-konfet-zhivaya-kuhnya-200g-1000x1000.png',
       title:'Новогодний подарочный набор полезных конфет',
-      price: '200-300грн',
+      price: '200 - 300грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=32bc6575db'
     }
   ]
@@ -375,7 +375,7 @@ export const data = [
       link:'https://pampik.com/catalog/konstruktor-lego-city-pozhar-v-burger-kafe-327-detaley-60214?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6LMYqo6SclwyTXEKsjjNPTCLnQ2dT7EZ75gW5i-9bIxb1UTB5zZcd0aAueYEALw_wcB',
       imageLink:'https://pampik.com/uploads/product/middle/20190228/89qy.jpg',
       title:'Конструктор LEGO City',
-      price: '700-900грн',
+      price: '700 - 900грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=7ee6ce23f7'
     }]
   },
@@ -397,7 +397,7 @@ export const data = [
       link:'https://rozetka.com.ua/coolpack_23377cp/p114928357/',
       imageLink:'https://i1.rozetka.ua/goods/13589653/coolpack_23377cp_images_13589653915.jpg',
       title:'Рюкзак CoolPack Ruby для девочек',
-      price: '700-800грн',
+      price: '700 - 800грн',
       paymentLink: 'https://privatbank.ua/sendmoney?payment=721aab7fbf'
     }]
   },

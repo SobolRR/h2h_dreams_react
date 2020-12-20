@@ -38,7 +38,7 @@ function Institution() {
       <div className="container">
         <Breadcrumbs currentPageName="Мечты" />
         <Article />
-        <HelpProducts products={arr} title={"Вещи необходимые на обустройство центра:"}/>
+        <HelpProducts products={arr} title={"Вещи необходимые для обустройства сенсорной комнаты:"}/>
       </div>
     </main>
   );
