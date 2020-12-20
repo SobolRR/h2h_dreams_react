@@ -59,12 +59,13 @@
 .navigation {
     display: flex;
     &__item {
+        white-space: nowrap;
         text-decoration: none;
         transition: all 0.3s;
         color: inherit;
 
         &:not(:last-child) {
-            margin-right: 50px;
+            margin-right: 40px;
         }
 
         &:hover {

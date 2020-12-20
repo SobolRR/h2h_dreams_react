@@ -55,7 +55,10 @@
         display: none;
     }
 
-    .shariff-button, .shariff-button a, .social-fb-button {
+    .shariff-button, 
+    .shariff-button a, 
+    .social-fb-button,
+    .social-telegram-button {
         position: relative;
         z-index: 2;
         width: 31px!important;
