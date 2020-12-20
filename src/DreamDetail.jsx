@@ -39,6 +39,11 @@ function DreamDetail() {
               </div>
               <div>
                 <span>
+                  А еще хочу научиться <b className="accent-blue">{detail.wish}</b>
+                </span>
+              </div>
+              <div>
+                <span>
                   Я целый год стараюсь, делаю полезные дела и совершаю хорошие
                   поступки. Вот самые важные:{" "}
                   <b className="accent-green">{detail.action}</b>
