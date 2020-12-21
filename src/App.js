@@ -1,6 +1,6 @@
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -8,8 +8,8 @@ import './scss/Styles.scss';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './Main';
-import Dreams from './Dreams.jsx';
-import DreamDetail from './DreamDetail.jsx';
+import Dreams from './Dreams.js';
+import DreamDetail from './DreamDetail.js';
 import Institution from "./Institution";
 
 function App() {

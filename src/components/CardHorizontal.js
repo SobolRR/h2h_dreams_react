@@ -1,7 +1,12 @@
 import { FacebookShareButton, TelegramShareButton } from "react-share";
 import classnames from 'classnames'
+import  {useEffect} from 'react'
+import { calculateDreamProgress, scrollTop } from "../utils/utils";
 
 function CardHorizontal(props) {
+  useEffect(() => {
+   scrollTop()
+  }, [])
   const dreamProgress = calculateDreamProgress(props.presents,props.currentSum)
   return (
     <div href="#" class="card-horizontal">
@@ -45,7 +50,7 @@ function CardHorizontal(props) {
       <div class="card-horizontal__progress progress-bar">
         <div
           class="progress-bar__completed-line"
-          style={{ width:  + dreamProgress + "%" }}
+          style={{ width:  + dreamProgress+ "%" }}
         ></div>
         <span class="progress-bar__label">
           Выполнена на {dreamProgress}%
@@ -53,15 +58,6 @@ function CardHorizontal(props) {
       </div>
     </div>
   );
-}
-
-const calculateDreamProgress = (presents,currentSum) => {
-  const regex = /([0-9]{1,5})/g;
-  const totalPrice = presents.reduce((acc, present)=> {
-    return acc + parseInt(present.price.match(regex)[1])
-  },0)
-  const dreamProgress = currentSum * 100 / totalPrice
-  return dreamProgress.toFixed(0)
 }
 
 

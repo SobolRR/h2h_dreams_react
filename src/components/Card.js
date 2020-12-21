@@ -2,7 +2,6 @@
 import { Link } from "react-router-dom";
 
 function Card(props) {
-
     return (
 
         <Link to={`/dreams/${props.id}`} class="card">

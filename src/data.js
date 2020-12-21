@@ -21,7 +21,7 @@ import letter14 from "./img/letters/letter_14.jpg";
 import letter15 from "./img/letters/letter_15.jpg";
 import letter16 from "./img/letters/letter_16.jpg";
 
-export const data = [
+  export const data = [
   {
     id: 1,
     status: "in-progress",

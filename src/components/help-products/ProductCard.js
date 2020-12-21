@@ -14,7 +14,7 @@ function ProductCard(props) {
           </div>
         </div>
         <div class={`product-card__btn`}>
-          <a href={props.paymentLink} target="_blank" className={classnames("btn btn--primary btn--md btn--full-width")}>
+          <a href={props.paymentLink} target="_blank" className={classnames("btn btn--primary btn--md btn--full-width",{"btn--disabled":props.status === "completed"})}>
             Подарить
           </a>
         </div>

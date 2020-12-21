@@ -5,18 +5,20 @@ import Breadcrumbs from "./components/Breadcrumbs";
 import CardHorizontal from "./components/CardHorizontal";
 import HelpProducts from "./components/help-products/HelpProducts";
 import { data } from "./data";
+import { sortDataByProp } from './utils/utils';
 
 function DreamDetail() {
   const { id } = useParams();
   const [visible, setVisible] = React.useState(false);
-
-  const detail = data[id - 1];
+  const sortedData = sortDataByProp(data,"status")
+  const detail = sortedData.find((el) => el.id === +id)
+  
   return (
     <main className="page__main dream-details-page">
       <div className="container">
         <Breadcrumbs currentPageName={id} />
 
-        <CardHorizontal {...detail} />
+        { <CardHorizontal {...detail} />}
 
         <div className="dream-descroption">
           <div className="dream-descroption__row">
@@ -83,7 +85,7 @@ function DreamDetail() {
           </div>
         </div>
 
-        {detail.status !== "completed" && <HelpProducts title="Наш ориентир для подарка:" products={detail.presents} />}
+        {<HelpProducts title="Наш ориентир для подарка:" products={detail.presents} />}
       </div>
     </main>
   );
