@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
 import { FacebookShareButton, TelegramShareButton } from "react-share";
+import classnames from 'classnames'
 
 function CardHorizontal(props) {
+  const dreamProgress = calculateDreamProgress(props.presents,props.currentSum)
   return (
     <div href="#" class="card-horizontal">
       <div class="card-horizontal__row">
         <figure class="card-horizontal__image">
-          <img src={props.image} />
+          <img src={props.image}/>
         </figure>
         <div class="card-horizontal__body">
           <div class="card-horizontal__body-row">
@@ -36,7 +37,7 @@ function CardHorizontal(props) {
               Я мечтаю о: <b>{props.dream}</b>
             </span>{" "}
           </div>
-          <a href={props.paymentLink} class="btn btn--white" target="_blank">
+          <a href={props.paymentLink} className={classnames("btn btn--white",{"btn--disabled": props.status === "completed"})} target="_blank">
             Исполнить мечту
           </a>
         </div>
@@ -44,14 +45,24 @@ function CardHorizontal(props) {
       <div class="card-horizontal__progress progress-bar">
         <div
           class="progress-bar__completed-line"
-          style={{ width: props.percantage + "%" }}
+          style={{ width:  + dreamProgress + "%" }}
         ></div>
         <span class="progress-bar__label">
-          Выполнена на {props.percantage}%
+          Выполнена на {dreamProgress}%
         </span>
       </div>
     </div>
   );
 }
+
+const calculateDreamProgress = (presents,currentSum) => {
+  const regex = /([0-9]{1,5})/g;
+  const totalPrice = presents.reduce((acc, present)=> {
+    return acc + parseInt(present.price.match(regex)[1])
+  },0)
+  const dreamProgress = currentSum * 100 / totalPrice
+  return dreamProgress.toFixed(0)
+}
+
 
 export default CardHorizontal;

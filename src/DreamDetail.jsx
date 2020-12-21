@@ -12,15 +12,15 @@ function DreamDetail() {
 
   const detail = data[id - 1];
   return (
-    <main class="page__main dream-details-page">
+    <main className="page__main dream-details-page">
       <div className="container">
         <Breadcrumbs currentPageName={id} />
 
         <CardHorizontal {...detail} />
 
-        <div class="dream-descroption">
-          <div class="dream-descroption__row">
-            <div class="dream-descroption__col dream-descroption__col--text">
+        <div className="dream-descroption">
+          <div className="dream-descroption__row">
+            <div className="dream-descroption__col dream-descroption__col--text">
               <div>
                 <span>
                   Меня зовут <b className="accent-red">{detail.name}</b> и мне{" "}
@@ -69,7 +69,7 @@ function DreamDetail() {
                 </span>
               </div>
             </div>
-            <button class="dream-descroption__col" onClick={() => { setVisible(true); }}>
+            <button className="dream-descroption__col" onClick={() => { setVisible(true); }}>
               <figure className="dream-descroption__picture">
                 <img src={detail.letter} alt="Письмо к Св. Николаю" />
 
@@ -83,8 +83,7 @@ function DreamDetail() {
           </div>
         </div>
 
-        <HelpProducts title="Наш ориентир для подарка:" products={detail.presents} />
-
+        {detail.status !== "completed" && <HelpProducts title="Наш ориентир для подарка:" products={detail.presents} />}
       </div>
     </main>
   );

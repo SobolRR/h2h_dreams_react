@@ -35,9 +35,10 @@ export const data = [
     wish: "отлично выполнять ремонт в доме",
     action: "Помогал выполнять хозяйственные дела в центре",
     dream: "шуроповертe для ремонта помещений",
+    currentSum:0,
     letter: letter1,
     title: 'Дима, 16 лет',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=a8f801a074',
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=efcbffeac6',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -45,7 +46,7 @@ export const data = [
       imageLink:'https://i1.rozetka.ua/goods/13589284/texac_ta_01_159_images_13589284261.jpg',
       title:'Аккумуляторный шуруповерт',
       price: '600 - 800грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=a8f801a074'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=efcbffeac6'
     }]
   },
   {
@@ -55,11 +56,12 @@ export const data = [
     age: '7 лет',
     like: 'музыка и петь',
     skill: 'рисовать',
-    wish: 'отлично выполнять ремонт в доме',
+    wish: 'отлично рисовать',
     action: 'убирал комнату и складывал свои вещи',
     letter: letter2,
     dream: 'машине на управлении',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=b1a6153077',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=f8f70289c6',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -67,7 +69,7 @@ export const data = [
       imageLink:'https://i2.rozetka.ua/goods/19407820/sulong_toys_sl_111rhmbl_images_19407820429.jpg',
       title:'Автомобиль на р/у',
       price: '600 - 800грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=b1a6153077'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=f8f70289c6'
     }]
   },
   {
@@ -81,6 +83,7 @@ export const data = [
     action: 'помогать младшему брату Илье, убирать комнату',
     letter: letter3,
     dream: 'музыкальной колонке JBL',
+    currentSum:220,
     paymentLink: 'https://privatbank.ua/sendmoney?payment=9138fb4bcf',
     showLink: 'show',
     showBtn: 'show',
@@ -103,7 +106,8 @@ export const data = [
     action: 'Не пропускаю уроки в школе. Ухаживаю за своими вещами. Уважаю старших',
     letter: letter4,
     dream: 'смарт часах и спортивном костюме (размер 46)',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=5653864d26',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=3e6dccea91',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -111,14 +115,14 @@ export const data = [
       imageLink:'https://images.ua.prom.st/2743419076_w640_h640_fitnes-treker-xiaomi.jpg',
       title:'Фитнес трекер Xiaomi Mi band 5',
       price: '500 - 600грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=5653864d26'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=3e6dccea91'
     },
     {
       link:'https://prom.ua/p1231151344-sportivnyj-kostyum-dlya.html?',
       imageLink:'https://images.ua.prom.st/2528383130_w700_h500_sportivnyj-kostyum-dlya.jpg',
       title:'Спортивный костюм для девочек',
       price: '400 - 700грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=5653864d26'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=3e6dccea91'
     }
   ]
   },
@@ -133,7 +137,8 @@ export const data = [
     action: 'помогаю убирать в комнате',
     letter: letter5,
     dream: 'машине на радиоуправлении',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=eb7dc5418f',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=d69e9eb5ff',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -141,11 +146,11 @@ export const data = [
       imageLink:'https://goodtoys.com.ua/wa-data/public/shop/products/00/webp/48/91/9148/images/23630/23630.970.webp',
       title:'Машинка на радиуправлении',
       price: '500 - 700грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=eb7dc5418f'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=d69e9eb5ff'
     }]
   },
   {
-    id: 6, status: 'in-progress', image: snowAngel, label: 'В процессе', percantage: 0,
+    id: 6, status: 'completed', image: snowAngel, label: 'Исполненная', percantage: 0,
     title: 'Миша, 14 лет',
     name: 'Миша',
     age: '14 лет',
@@ -155,6 +160,7 @@ export const data = [
     action: 'помагал братьям, помогаю тренеру на занятиях',
     letter: letter6,
     dream: 'музыкальной колонке JBL',
+    currentSum: 600,
     paymentLink: 'https://privatbank.ua/sendmoney?payment=c1f74b78e5',
     showLink: 'show',
     showBtn: 'show',
@@ -177,7 +183,8 @@ export const data = [
     action: 'перенес пожилой женщине тяжелую сумку, помогла маме по хозяйству, по уборке огорода',
     letter: letter7,
     dream: 'машине на пульте управления',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=f5f385ae4c',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=db4f7593fa',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -185,11 +192,11 @@ export const data = [
       imageLink:'https://i8.rozetka.ua/goods/20123791/252023666_images_20123791621.png',
       title:'Антигравитационная машинка на радиоуправлении',
       price: '500 - 700грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=f5f385ae4c'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=db4f7593fa'
     }]
   },
   {
-    id: 8, status: 'in-progress', image: girl2, label: 'В процессе', percantage: 0,
+    id: 8, status: 'completed', image: girl2, label: 'Исполненная', percantage: 0,
     title: 'Лера, 7 лет',
     name: 'Лера',
     age: '7 лет',
@@ -199,7 +206,8 @@ export const data = [
     action: 'хорошо учусь и хорошо себя веду',
     letter: letter8,
     dream: 'куколке с одеждой',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=e4a8bd5fe6',
+    currentSum:700,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=7e7b0225d7',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -207,7 +215,7 @@ export const data = [
       imageLink:'https://images.ua.prom.st/2613855229_w700_h500_detskaya-kukla-barbi.jpg',
       title:'Детская кукла барби Defa с одеждой и аксессуарами',
       price: '500 - 700грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=e4a8bd5fe6'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=7e7b0225d7'
     }]
   },
   {
@@ -221,7 +229,8 @@ export const data = [
     action: 'помогаю убирать игрушки, с удовольствием занимаюсь с воспитателем',
     letter: letter9,
     dream: 'большой кукле, чтобы ее можно было кормить, ухаживать, одевать. Хочу чтобы она была моими другом',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=5a68629982',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=e419e0dfe3',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -229,11 +238,11 @@ export const data = [
       imageLink:'https://images.ua.prom.st/2414637704_w700_h500_detskaya-kukla-pups.jpg',
       title:'Детская кукла пупс для девочек функциональная',
       price: '700 - 900грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=5a68629982'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=e419e0dfe3'
     }]
   },
   {
-    id: 10, status: 'in-progress', image: snowMan, label: 'В процессе', percantage: 0,
+    id: 10, status: 'completed', image: snowMan, label: 'Исполненная', percantage: 0,
     title: 'Данил, 6 лет',
     name: 'Данил',
     age: '6 лет',
@@ -243,6 +252,7 @@ export const data = [
     action: 'помогал убирать комнату',
     letter: letter10,
     dream: 'машине на радиоуправлении',
+    currentSum:600,
     paymentLink: 'https://privatbank.ua/sendmoney?payment=e3138288ca',
     showLink: 'show',
     showBtn: 'show',
@@ -265,7 +275,8 @@ export const data = [
     action: 'помогаю младшей сестре',
     letter: letter11,
     dream: 'детской косметике и большой кукле',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=261ddb3436',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=dcfdbd9bf1',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -273,14 +284,14 @@ export const data = [
       imageLink:'https://images.ua.prom.st/2746008158_w700_h500_kukla-bolshaya-kak.jpg',
       title:'Кукла большая',
       price: '400 - 500грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=261ddb3436'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=dcfdbd9bf1'
     },
     {
       link:'https://prom.ua/p1019631659-nabor-detskoj-kosmetiki.html?',
       imageLink:'https://images.ua.prom.st/1919928941_w700_h500_nabor-detskoj-kosmetiki.jpg',
       title:'Набор детской косметики',
       price: '300 - 400грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=261ddb3436'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=dcfdbd9bf1'
     }
   ]
   },
@@ -295,7 +306,8 @@ export const data = [
     action: 'здороваюсь со всеми, говорю спасибо, сам одеваюсь',
     letter: letter12,
     dream: 'большой машине, чтобы в ней можно было возить кубики, катать мишек',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=2fca88e6d4',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=02778f9e43',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -303,7 +315,7 @@ export const data = [
       imageLink:'https://images.ua.prom.st/1252789104_w640_h640_bolshoj-igrushechnyj-gruzovik.jpg',
       title:'Большой игрушечный грузовик ',
       price: '700 - 900грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=5a68629982'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=02778f9e43'
     }]
   },
   {
@@ -317,14 +329,15 @@ export const data = [
     action: 'покупаю продукты',
     letter: letter13,
     dream: 'игрушечном тракторе с прицепом', showLink: 'show',
+    currentSum:0,
     showBtn: 'show',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=415056db46',
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=b111c852a3',
     presents: [{
       link:'https://myplay.ua/ru/307299?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6KQea4JjcXe5rkjO-IS4NmahulcQtOpsmdD-wSHyQg0_soSyFsm1MAaAt6qEALw_wcB',
       imageLink:'https://myplay.ua/tmp/cache/images/53/4e0/307299-638x638-r.jpg',
       title:'ТРАКТОР NEW HOLLAND с прицепом',
       price: '500 - 600грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=415056db46'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=b111c852a3'
     }]
   },
   {
@@ -338,7 +351,8 @@ export const data = [
     action: 'училась читать и писать',
     letter: letter14,
     dream: 'конфетах и большой кукле',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=32bc6575db',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=fd00857784',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -346,19 +360,19 @@ export const data = [
       imageLink:'https://images.ua.prom.st/2746008158_w700_h500_kukla-bolshaya-kak.jpg',
       title:'Кукла большая как ребенок',
       price: '500-600грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=32bc6575db'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=fd00857784'
     },
     {
       link:'https://zdorovalavka.com.ua/novogodniy-podarochnyy-nabor-poleznyh-konfet-zhivaya-kuhnya-200g?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6LMEKg_hb96gz3UAckzsbgz-FESDm0wNL8F6NMyC35YIH6FXoO4ruwaAvZREALw_wcB',
       imageLink:'https://zdorovalavka.com.ua/image/cache/catalog/Sladkij%20mir/novogodniy-podarochnyy-nabor-poleznyh-konfet-zhivaya-kuhnya-200g-1000x1000.png',
       title:'Новогодний подарочный набор полезных конфет',
       price: '200 - 300грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=32bc6575db'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=fd00857784'
     }
   ]
   },
   {
-    id: 15, status: 'in-progress', image: boy, label: 'В процессе', percantage: 0,
+    id: 15, status: 'completed', image: boy, label: 'Исполненная', percantage: 0,
     title: 'Руслан, 10 лет',
     name: 'Руслан',
     age: '10 лет',
@@ -368,6 +382,7 @@ export const data = [
     action: 'стал получать хорошие оценки',
     letter: letter15,
     dream: 'большом конструкторе',
+    currentSum:900,
     paymentLink: 'https://privatbank.ua/sendmoney?payment=7ee6ce23f7',
     showLink: 'show',
     showBtn: 'show',
@@ -390,7 +405,8 @@ export const data = [
     action: 'помогать всем',
     letter: letter16,
     dream: 'рюкзачке для девочек',
-    paymentLink: 'https://privatbank.ua/sendmoney?payment=721aab7fbf',
+    currentSum:0,
+    paymentLink: 'https://privatbank.ua/sendmoney?payment=ab880683de',
     showLink: 'show',
     showBtn: 'show',
     presents: [{
@@ -398,7 +414,7 @@ export const data = [
       imageLink:'https://i1.rozetka.ua/goods/13589653/coolpack_23377cp_images_13589653915.jpg',
       title:'Рюкзак CoolPack Ruby для девочек',
       price: '700 - 800грн',
-      paymentLink: 'https://privatbank.ua/sendmoney?payment=721aab7fbf'
+      paymentLink: 'https://privatbank.ua/sendmoney?payment=ab880683de'
     }]
   },
 ]

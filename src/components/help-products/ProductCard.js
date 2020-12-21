@@ -1,3 +1,4 @@
+import classnames from 'classnames'
 function ProductCard(props) {
   return (
       <a href={props.link} target="_blank" className="product-card">
@@ -13,7 +14,7 @@ function ProductCard(props) {
           </div>
         </div>
         <div class={`product-card__btn`}>
-          <a href={props.paymentLink} target="_blank" class="btn btn--primary btn--md btn--full-width">
+          <a href={props.paymentLink} target="_blank" className={classnames("btn btn--primary btn--md btn--full-width")}>
             Подарить
           </a>
         </div>

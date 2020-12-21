@@ -6,18 +6,18 @@ function Dreams() {
   
   return (
 
-    <main class="page__main _01 page__dreams-list">
-    <div class="container">
+    <main className="page__main _01 page__dreams-list">
+    <div className="container">
     <Breadcrumbs currentPageName={'Мечты'}/>
-        <ul class="card-list">
+        <ul className="card-list">
           {(data.map((card, i) =>(
-            <li class="card-list__item" key={i}>
+            <li className="card-list__item" key={i}>
                <Card {...card}/>
                
             </li>
           )))}
         </ul>
-        <div class="background-section"></div>
+        <div className="background-section"></div>
     </div>
     
   </main>

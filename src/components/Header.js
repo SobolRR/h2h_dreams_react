@@ -4,19 +4,19 @@ import logo from '../img/logo.svg';
 
 function Header() {
   return (
-    <header class="header">
-    <div class="container">
-        <div class="header__inner">
-            <a href="/" class="header__item logo">
+    <header className="header">
+    <div className="container">
+        <div className="header__inner">
+            <a href="/" className="header__item logo">
                 <img src={logo} alt="logo" />
             </a>
-            <nav class="header__item navigation">
-                <Link to="/" class="navigation__item">Главная</Link>
-                <Link to="/dreams" class="navigation__item">Мечты</Link>
-                <Link to="/child-center" class="navigation__item">О центре</Link>
+            <nav className="header__item navigation">
+                <Link to="/" className="navigation__item">Главная</Link>
+                <Link to="/dreams" className="navigation__item">Мечты</Link>
+                <Link to="/child-center" className="navigation__item">О центре</Link>
             </nav>
-            <div class="header__item text-right">
-                <Link to="/dreams" class="btn btn--reverse">Исполнить мечту</Link>
+            <div className="header__item text-right">
+                <Link to="/dreams" className="btn btn--reverse">Исполнить мечту</Link>
             </div>
         </div>
     </div>

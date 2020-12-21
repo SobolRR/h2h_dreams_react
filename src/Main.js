@@ -85,9 +85,9 @@ function Main() {
                 <iframe
                   class="video"
                   src="https://www.youtube.com/embed/03l6yFdx97g"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
