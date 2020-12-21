@@ -12,7 +12,7 @@ function DreamDetail() {
   const [visible, setVisible] = React.useState(false);
   const sortedData = sortDataByProp(data,"status")
   const detail = sortedData.find((el) => el.id === +id)
-  
+
   return (
     <main className="page__main dream-details-page">
       <div className="container">
@@ -85,7 +85,7 @@ function DreamDetail() {
           </div>
         </div>
 
-        {<HelpProducts title="Наш ориентир для подарка:" products={detail.presents} />}
+        {<HelpProducts title="Наш ориентир для подарка:" products={detail.presents} status={detail.status}/>}
       </div>
     </main>
   );

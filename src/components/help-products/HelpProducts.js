@@ -10,7 +10,7 @@ function HelpProducts(props) {
           props.products.map((product, i) => (
             <li className="help-products__list-item" key={i}>
   
-              <ProductCard {...product} />
+              <ProductCard {...product} status = {props.status} />
             </li>
           ))
         )}
