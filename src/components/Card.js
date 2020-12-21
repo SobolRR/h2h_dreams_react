@@ -23,9 +23,11 @@ function Card(props) {
                     <Link to={`/dreams/${props.id}`} class={`card__link-details ${props.showLink}`}>Подробнее</Link>
 
                 </div>
-                <div class={`card__btn ${props.showBtn}`}>
-                    <a href={props.paymentLink} class="btn btn--white btn--full-width" target="_blank">Помочь</a>
-                </div>
+                { (props.status !== "completed") &&
+                    <div class={`card__btn ${props.showBtn}`}>
+                        <a href={props.paymentLink} class="btn btn--white btn--full-width" target="_blank">Помочь</a>
+                    </div>
+                }
             </div>
         </Link>
     );

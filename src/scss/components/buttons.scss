@@ -43,15 +43,7 @@ button {
 		transition: all 0.3s;
 	}
 
-	&--disabled,
-	&[disabled],
-	&--disabled:hover,
-	&[disabled]:hover {
-		background-color: transparent;
-		background-image: $gray-c4;
-		cursor: not-allowed;
-		pointer-events: none;
-	}
+	
 
 	&--reverse {
 		background-color: transparent;
@@ -99,4 +91,15 @@ button {
         height: 48px;
         padding: 0 20px;
     }
+
+    &--disabled,
+	&[disabled],
+	&--disabled:hover,
+	&[disabled]:hover {
+        background: $gray-c4;
+        color: #898989;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+
 }
